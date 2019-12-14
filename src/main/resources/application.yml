@@ -1,0 +1,20 @@
+server:
+  port:
+    8080
+spring:
+  thymeleaf:
+    prefix: classpath:/templates/
+    suffix: .html
+    mode: HTML5
+    encoding: UTF-8
+  datasource:
+    url: jdbc:mysql://localhost:3306/community?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=GMT
+    username: root
+    password: Wap8778708
+    driver-class-name: com.mysql.jdbc.Driver
+github:
+  client:
+    id: ee3b1221964394bb097d
+    secret: 50abe8aa872db5d8b013fba5b145414fefe77ae2
+  redirect:
+    uri: http://localhost:8080/callback
