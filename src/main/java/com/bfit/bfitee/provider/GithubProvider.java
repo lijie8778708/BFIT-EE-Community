@@ -5,7 +5,6 @@ import com.bfit.bfitee.dto.AccessTokenDTO;
 import com.bfit.bfitee.dto.GithubUser;
 import okhttp3.*;
 import org.springframework.stereotype.Component;
-
 import java.io.IOException;
 
 @Component

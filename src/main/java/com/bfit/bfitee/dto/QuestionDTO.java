@@ -1,10 +1,11 @@
-package com.bfit.bfitee.model;
+package com.bfit.bfitee.dto;
+
+import com.bfit.bfitee.model.User;
 
 import lombok.Data;
 
 @Data
-public class Question {
-
+public class QuestionDTO {
     private Long id;
     private String title;
     private Long gmtCreate;
@@ -15,8 +16,5 @@ public class Question {
     private Integer likeCount;
     private String tag;
     private String description;
-
-    public void setDescription(String description) {
-        this.description = description == null ? null : description.trim();
-    }
+    private User user;
 }
